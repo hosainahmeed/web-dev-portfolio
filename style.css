@@ -1,3 +1,12 @@
+*{ 
+    box-sizing: border-box;
+    text-decoration: none;
+}
+html , body{
+    height: 100%;
+    width: 100%;
+}
+
 .open-sans-normal {
     font-family: "Open Sans", sans-serif;
     font-optical-sizing: auto;
@@ -27,6 +36,7 @@
     border: none;
     padding: 18px 35px;
     border-radius: 5px;
+    text-decoration: none;
 }
 
 .btn-primary:hover {
